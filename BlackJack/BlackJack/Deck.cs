@@ -25,7 +25,7 @@ namespace BlackJack
                 queen = 10,
                 king = 10,
                 ace = 0,
-                
+
         }
 
        
