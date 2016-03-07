@@ -25,13 +25,11 @@ namespace BlackJack
                 queen = 10,
                 king = 10,
                 ace = 0,
-
                 
-
         }
 
        
-        public void TheCards()
+        public void TheCards() //Writes the cards to the list
         {
            
             MyCards.Add(TheDeck.two);
@@ -48,7 +46,6 @@ namespace BlackJack
             MyCards.Add(TheDeck.king);
             MyCards.Add(TheDeck.ace);
             
-
 
         }
 
