@@ -27,6 +27,13 @@ namespace BlackJack
             ace = 0,
 
         }
+        private enum SortsofCards
+        {
+            Heart,
+            Spades,
+            Club,
+            Diamond
+        }
 
        
         public void TheCards() //Writes the cards to the list
