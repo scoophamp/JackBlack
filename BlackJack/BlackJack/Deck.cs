@@ -39,20 +39,7 @@ namespace BlackJack
         public void TheCards() //Writes the cards to the list
         {
            
-            MyCards.Add(TheDeck.two);
-            MyCards.Add(TheDeck.three);
-            MyCards.Add(TheDeck.four);
-            MyCards.Add(TheDeck.five);
-            MyCards.Add(TheDeck.six);
-            MyCards.Add(TheDeck.seven);
-            MyCards.Add(TheDeck.eight);
-            MyCards.Add(TheDeck.nine);
-            MyCards.Add(TheDeck.ten);
-            MyCards.Add(TheDeck.knight);
-            MyCards.Add(TheDeck.queen);
-            MyCards.Add(TheDeck.king);
-            MyCards.Add(TheDeck.ace);
-            
+                       
 
         }
 
