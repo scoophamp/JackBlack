@@ -11,10 +11,13 @@ using System.Text;
 
 public class Hand
 {
-    List<Hand>;
-
 	public virtual string List<Hand>
 	{
+		get;
+		set;
+	}
+
+	public virtual {
 		get;
 		set;
 	}

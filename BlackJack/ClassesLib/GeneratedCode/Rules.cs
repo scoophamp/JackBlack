@@ -19,6 +19,8 @@ public class Rules
 
 	public virtual List<Hand> CheckValue()
 	{
+        CheckValue.
+
 		throw new System.NotImplementedException();
 	}
 
