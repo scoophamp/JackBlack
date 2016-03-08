@@ -11,21 +11,21 @@ using System.Text;
 
 public class Card
 {
-	public virtual string Value
+	public string Value
 	{
 		get;
 		set;
 	}
 
-	public virtual string Suit
+	public string Suit
 	{
 		get;
 		set;
 	}
 
-	public virtual string ToString()
+	public string ToString()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 }

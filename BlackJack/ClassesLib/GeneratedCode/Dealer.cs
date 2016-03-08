@@ -13,7 +13,7 @@ public class Dealer
 {
 	public virtual void RequestAction(object Hand)
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 }
