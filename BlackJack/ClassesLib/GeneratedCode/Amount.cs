@@ -12,7 +12,7 @@ using System.Text;
 public class Amount
 {
     Player P = new Player();
-    public int MyAmount //A property of the total amount
+    public int MyAmount // property of the total amount
 	{
 		get;
 		set;
