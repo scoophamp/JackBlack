@@ -17,29 +17,29 @@ public class Rules
 		set;
 	}
 
-	public virtual List<Hand> CheckValue()
+	public List<Hand> CheckValue()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
-	public virtual int DealerMustDraw()
+	public int DealerMustDraw()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
-	public virtual int EqualsLessFive()
+	public int EqualsLessFive()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
-	public virtual int MaxFiveCards()
+	public int MaxFiveCards()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
-	public virtual string CompareHands(object Hand, object Hand)
+	public string CompareHands(object Hand, object Hand)
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 }

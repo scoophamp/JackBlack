@@ -11,32 +11,32 @@ using System.Text;
 
 public class Player
 {
-	public virtual int bet
+	public int bet
 	{
 		get;
 		set;
 	}
 
-	public virtual string hit
+	public string hit
 	{
 		get;
 		set;
 	}
 
-	public virtual string stay
+	public string stay
 	{
 		get;
 		set;
 	}
 
-	public virtual int MyBet()
+	public int MyBet()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void RequestAction(object Hand, object Dealer visable hand)
+	public void RequestAction(object Hand, object Dealer visable hand)
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 }
