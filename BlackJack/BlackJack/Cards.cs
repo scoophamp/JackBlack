@@ -10,7 +10,7 @@ namespace BlackJack
     {
         public List<int> FullHand = new List<int>();
 
-        int queen = 10;
+       
 
         public void fullHand()
         {

@@ -8,5 +8,6 @@ namespace BlackJack
 {
     class Amount
     {
+        public int MyAmount { get; set; }
     }
 }
