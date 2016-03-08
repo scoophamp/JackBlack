@@ -11,7 +11,7 @@ using System.Text;
 
 public class Deck
 {
-	public virtual string List<Card>
+	public virtual string List<>
 	{
 		get;
 		set;

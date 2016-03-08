@@ -12,17 +12,19 @@ using System.Text;
 public class Amount
 {
     Player P = new Player();
-    public int MyAmount
+    public int MyAmount //A property of the total amount
 	{
 		get;
 		set;
 	}
 
-	public int List<PlayerBets>
-	{
-		get;
-		set;
-	}
+    public List<int> PlayersBet = new List<int>(); //The list of players bets
+
+    public void playersbet()
+    {
+        PlayersBet.Add(0); //The valuee represents players
+        PlayersBet.Add(1);
+    }
 
 	public int SetPlayerBet() //sets the players bet
 	{
@@ -37,7 +39,7 @@ public class Amount
         return MyAmount;
 	}
 
-	public int CheckAmount()
+	public int CheckAmount() //Checks the current value of MyAmount
 	{
         MyAmount = MyAmount;
         return MyAmount;
