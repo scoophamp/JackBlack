@@ -11,7 +11,7 @@ using System.Text;
 
 public class Hand
 {
-    List<Hand>;
+    List<Hand>hand=new List<Hand>();
 
 	public virtual string List<Hand>
 	{
