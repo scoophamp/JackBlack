@@ -9,18 +9,10 @@ namespace BlackJack
     class Deck
     {
         private List<Deck> MyCards = new List<Deck>(52);
-        
-    
-      
 
-       
-        public void TheCards() //Writes the cards to the list
-        {
-           
-                       
 
-        }
 
-        
+
+
     }
 }
