@@ -11,7 +11,7 @@ using System.Text;
 
 public class Player
 {
-    Amount amount = new Amount();
+    BetHandler amount = new BetHandler();
 	public int bet
 	{
 		get;
@@ -30,15 +30,7 @@ public class Player
 		set;
 	}
 
-	public void MyBet()
-	{
-        bet = int.Parse(Console.ReadLine());
-        while (bet > amount.MyAmount)
-        {
-            Console.WriteLine("Can't bet higher than your amount");
-            break;
-        }
-	}
+	
 
 	public void RequestAction(object Hand, object Dealer visable hand)
 	{

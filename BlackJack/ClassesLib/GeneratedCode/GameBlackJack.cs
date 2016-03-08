@@ -11,7 +11,7 @@ using System.Text;
 
 public class GameBlackJack
 {
-    Amount amount = new Amount();
+    BetHandler bethandler = new BetHandler();
     Board board = new Board();
     Deck deck = new Deck();
     Hand hand = new Hand();
@@ -27,7 +27,7 @@ public class GameBlackJack
 	}
     public void CurrentAmount()
     {
-        amount.MyAmount = 100;
+        bethandler.MyAmount = 100;
     }
     
 

@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Amount
+public class BetHandler
 {
-    Player P = new Player();
+    Player player = new Player();
     public int MyAmount // property of the total amount
 	{
 		get;
@@ -28,13 +28,13 @@ public class Amount
 
 	public int SetPlayerBet() //sets the players bet
 	{
-        P.bet = P.bet;
-        return P.bet;
+        player.bet = player.bet;
+        return player.bet;
 	}
 
 	public int WinAmount() // Sets the winning amount to the method
 	{
-        int winningBet = P.bet * 2;
+        int winningBet = player.bet * 2;
         MyAmount = MyAmount + winningBet;
         return MyAmount;
 	}
@@ -48,7 +48,7 @@ public class Amount
 	public int LoseAmount() //Sets the loose to the method
 	{
         
-        MyAmount = P.bet - MyAmount;
+        MyAmount = player.bet - MyAmount;
         return MyAmount;
 	}
 
