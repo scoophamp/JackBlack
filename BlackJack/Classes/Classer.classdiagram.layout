@@ -51,11 +51,11 @@
         <OperationElementListCompartment Id="4a75b559-5126-4ab3-a6ab-a174994de797" absoluteBounds="4.515, 3.6366637519001959, 2.3449999999999998, 1.0019530927141507" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="ccfbfbbb-73da-4b35-a9c0-4913e0cb635a" absoluteBounds="0.5, 2, 1.5, 1.508148109515508" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+    <classShape Id="ccfbfbbb-73da-4b35-a9c0-4913e0cb635a" absoluteBounds="0.5, 2, 1.5, 1.3479918644825619" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
       <classMoniker Id="4e59b636-db97-4bee-92b0-7a5367a66db4" LastKnownName="Hand" />
       <nestedChildShapes>
-        <AttributeElementListCompartment Id="ef013b92-28bb-4dd5-ab0e-187500e5ad22" absoluteBounds="0.5149999999999999, 2.5153356393178306, 1.4700000000000002, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
-        <OperationElementListCompartment Id="c88894c9-6df4-4104-a2aa-9610d86da396" absoluteBounds="0.5149999999999999, 3.0468199969331424, 1.4700000000000002, 0.36132811258236563" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <AttributeElementListCompartment Id="ef013b92-28bb-4dd5-ab0e-187500e5ad22" absoluteBounds="0.5149999999999999, 2.5153356393178306, 1.4700000000000002, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="c88894c9-6df4-4104-a2aa-9610d86da396" absoluteBounds="0.515, 2.8866637519001959, 1.4700000000000002, 0.36132811258236575" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="16676053-1cff-4555-8011-140ab634eedc" absoluteBounds="0.5, 0.5, 1.5, 1.1878356194496154" hideQualifiedName="false" increaseHeight="0.18800345897674561" customColor="181, 193, 223">

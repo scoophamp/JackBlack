@@ -34,7 +34,7 @@ public class Player
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void RequestAction(object Hand, object Dealerhand)
+	public virtual void RequestAction(object Hand, object Dealer visable hand)
 	{
 		throw new System.NotImplementedException();
 	}
