@@ -11,36 +11,43 @@ using System.Text;
 
 public class Amount
 {
-	public virtual int Amount
+    Player P = new Player();
+    public int MyAmount
 	{
 		get;
 		set;
 	}
 
-	public virtual int List<PlayerBets>
+	public int List<PlayerBets>
 	{
 		get;
 		set;
 	}
 
-	public virtual int SetPlayerBet()
+	public int SetPlayerBet() //sets the players bet
 	{
-		throw new System.NotImplementedException();
+        P.bet = P.bet;
+        return P.bet;
 	}
 
-	public virtual int WinAmount()
+	public int WinAmount() // Sets the winning amount to the method
 	{
-		throw new System.NotImplementedException();
+        int winningBet = P.bet * 2;
+        MyAmount = MyAmount + winningBet;
+        return MyAmount;
 	}
 
-	public virtual int CheckAmount()
+	public int CheckAmount()
 	{
-		throw new System.NotImplementedException();
+        MyAmount = MyAmount;
+        return MyAmount;
 	}
 
-	public virtual int LoseAmount()
+	public int LoseAmount() //Sets the loose to the method
 	{
-		throw new System.NotImplementedException();
+        
+        MyAmount = P.bet - MyAmount;
+        return MyAmount;
 	}
 
 }

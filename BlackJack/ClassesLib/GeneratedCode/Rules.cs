@@ -19,7 +19,7 @@ public class Rules
 
 	public List<Hand> CheckValue()
 	{
-		
+		throw new System.NotImplementedException();
 	}
 
 	public int DealerMustDraw()

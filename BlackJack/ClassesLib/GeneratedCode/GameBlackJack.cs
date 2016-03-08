@@ -20,10 +20,16 @@ public class GameBlackJack
     Dealer dealer = new Dealer();
     Card card = new Card();
 
+
 	public virtual void StartGame()
 	{
 		
 	}
+    public void CurrentAmount()
+    {
+        amount.MyAmount = 100;
+    }
+    
 
 }
 
