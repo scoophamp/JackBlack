@@ -11,17 +11,18 @@ using System.Text;
 
 public class Hand
 {
+    Card card = new Card();
     List<Hand>hand=new List<Hand>();
 
-	public virtual string List<Hand>
+	public string List<Hand>
 	{
 		get;
 		set;
 	}
 
-	public virtual string AddCard()
+	public void AddCard(card)
 	{
-		throw new System.NotImplementedException();
+        hand.Add(card);
 	}
 
 }
