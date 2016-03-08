@@ -11,6 +11,10 @@ namespace BlackJack
         public List<string> Card = new List<string>();
         public void AddCardToList()
         {
+            //'\u2663'=klöver
+            //U+2666=ruter
+            //U+2665=hjärter
+            //U+2660=spader
             Card.Add("H2");
             Card.Add("H3");
             Card.Add("H4");
