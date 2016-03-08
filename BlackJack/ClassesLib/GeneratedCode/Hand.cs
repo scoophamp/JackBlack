@@ -24,6 +24,7 @@ public class Hand
 
 	public virtual string AddCard()
 	{
+
 		throw new System.NotImplementedException();
 	}
 
