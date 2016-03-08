@@ -23,7 +23,7 @@ public class Card
 		set;
 	}
 
-	public override string ToString()
+	public virtual string ToString()
 	{
 		throw new System.NotImplementedException();
 	}

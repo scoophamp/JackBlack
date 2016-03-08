@@ -11,5 +11,37 @@ using System.Text;
 
 public class Amount
 {
+	public virtual int Amount
+	{
+		get;
+		set;
+	}
+
+	public virtual int List<PlayerBets>
+	{
+		get;
+		set;
+	}
+
+	public virtual int SetPlayerBet()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual int WinAmount()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual int CheckAmount()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual int LoseAmount()
+	{
+		throw new System.NotImplementedException();
+	}
+
 }
 

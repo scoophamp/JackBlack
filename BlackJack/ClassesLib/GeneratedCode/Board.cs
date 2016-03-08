@@ -11,5 +11,70 @@ using System.Text;
 
 public class Board
 {
+	public virtual string showplayercard
+	{
+		get;
+		set;
+	}
+
+	public virtual int currentplayerbet
+	{
+		get;
+		set;
+	}
+
+	public virtual int value
+	{
+		get;
+		set;
+	}
+
+	public virtual string showdealercard
+	{
+		get;
+		set;
+	}
+
+	public virtual int currentamount
+	{
+		get;
+		set;
+	}
+
+	public virtual int ShowCurrentAmount()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual int ShowCurrentBet()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual string ShowPlayerCard()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual string ShowDealerCard()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual void AddCard(object Card, object Player1)
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual int TatalValue()
+	{
+		throw new System.NotImplementedException();
+	}
+
+	public virtual void ShowHiddencard(object Hand)
+	{
+		throw new System.NotImplementedException();
+	}
+
 }
 

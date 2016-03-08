@@ -11,5 +11,21 @@ using System.Text;
 
 public class Hand
 {
+	public virtual string List<Hand>
+	{
+		get;
+		set;
+	}
+
+	public virtual {
+		get;
+		set;
+	}
+
+	public virtual string AddCard()
+	{
+		throw new System.NotImplementedException();
+	}
+
 }
 

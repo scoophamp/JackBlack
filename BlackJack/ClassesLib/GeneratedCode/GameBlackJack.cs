@@ -11,5 +11,10 @@ using System.Text;
 
 public class GameBlackJack
 {
+	public virtual void StartGame()
+	{
+		throw new System.NotImplementedException();
+	}
+
 }
 
