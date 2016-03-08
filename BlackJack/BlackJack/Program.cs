@@ -10,6 +10,10 @@ namespace BlackJack
     {
         static void Main(string[] args)
         {
+            Amount MineAmount = new Amount();
+
+            MineAmount.MyAmount = 100;
+
             Console.WriteLine("Welcome to BlackJack!");
             Console.WriteLine("(B)et");
             Console.WriteLine("(Q)uit");

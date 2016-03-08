@@ -8,6 +8,6 @@ namespace BlackJack
 {
     class Player
     {
-        Random random = new Random();
+        public int Bet { get; set; }
     }
 }

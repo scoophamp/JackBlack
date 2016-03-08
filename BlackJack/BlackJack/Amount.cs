@@ -9,5 +9,18 @@ namespace BlackJack
     class Amount
     {
         public int MyAmount { get; set; }
+
+        Player DaPlayer = new Player();
+
+
+        public void Win()
+        {
+            MyAmount = MyAmount * 2;
+        }
+        public void Loose()
+        {
+            MyAmount = MyAmount - DaPlayer.Bet;
+            
+        }
     }
 }
