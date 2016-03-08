@@ -8,7 +8,7 @@ namespace BlackJack
 {
     class Deck
     {
-        private List<Deck> MyCards = new List<Deck>(52);
+        private List<Cards> MyCards = new List<Cards>(52);
 
 
 
