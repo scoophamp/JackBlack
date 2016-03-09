@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Amount
+public class BetHandler
 {
     Player player = new Player();
     public int MyAmount // property of the total amount
