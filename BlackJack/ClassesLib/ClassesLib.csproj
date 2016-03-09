@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GeneratedCode\Amount.cs" />
+    <Compile Include="GeneratedCode\Bethandler.cs" />
     <Compile Include="GeneratedCode\Board.cs" />
     <Compile Include="GeneratedCode\Card.cs" />
     <Compile Include="GeneratedCode\Dealer.cs" />
