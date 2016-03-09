@@ -8,7 +8,7 @@ namespace BlackJack
 {
     class Program
    {
-        
+
         public List<string> Card = new List<string>();
         public void AddCardToList()
         {
@@ -77,7 +77,7 @@ namespace BlackJack
         {
             
 
-            
+
     }
     }
 }

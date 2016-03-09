@@ -11,6 +11,10 @@ using System.Text;
 
 public class Card
 {
+    public Card(List<string>Card)
+    {
+
+    }
 	public string Value
 	{
 		get;
