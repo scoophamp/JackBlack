@@ -11,62 +11,63 @@ namespace BlackJack
         public List<string> Card = new List<string>();
         public void AddCardToList()
         {
-            //'\u2663'=klöver
-            //U+2666=ruter
             //U+2665=hjärter
+            Card.Add('\u2665' + "2");
+            Card.Add('\u2665' + "3");
+            Card.Add('\u2665' + "4");
+            Card.Add('\u2665' + "5");
+            Card.Add('\u2665' + "6");
+            Card.Add('\u2665' + "7");
+            Card.Add('\u2665' + "8");
+            Card.Add('\u2665' + "9");
+            Card.Add('\u2665' + "10");
+            Card.Add('\u2665' + "J");
+            Card.Add('\u2665' + "Q");
+            Card.Add('\u2665' + "K");
+            //U+2666=ruter
+            Card.Add('\u2666' + "2");
+            Card.Add('\u2666' + "3");
+            Card.Add('\u2666' + "4");
+            Card.Add('\u2666' + "5");
+            Card.Add('\u2666' + "6");
+            Card.Add('\u2666' + "7");
+            Card.Add('\u2666' + "8");
+            Card.Add('\u2666' + "9");
+            Card.Add('\u2666' + "10");
+            Card.Add('\u2666' + "J");
+            Card.Add('\u2666' + "Q");
+            Card.Add('\u2666' + "K");
+            //'\u2663'=klöver
+            Card.Add('\u2663' + "2");
+            Card.Add('\u2663' + "3");
+            Card.Add('\u2663' + "4");
+            Card.Add('\u2663' + "5");
+            Card.Add('\u2663' + "6");
+            Card.Add('\u2663' + "7");
+            Card.Add('\u2663' + "8");
+            Card.Add('\u2663' + "9");
+            Card.Add('\u2663' + "10");
+            Card.Add('\u2663' + "J");
+            Card.Add('\u2663' + "Q");
+            Card.Add('\u2663' + "K");
             //U+2660=spader
-            Card.Add("H2");
-            Card.Add("H3");
-            Card.Add("H4");
-            Card.Add("H5");
-            Card.Add("H6");
-            Card.Add("H7");
-            Card.Add("H8");
-            Card.Add("H9");
-            Card.Add("H10");
-            Card.Add("HJ");
-            Card.Add("HQ");
-            Card.Add("HK");
-            Card.Add("D2");
-            Card.Add("D3");
-            Card.Add("D4");
-            Card.Add("D5");
-            Card.Add("D6");
-            Card.Add("D7");
-            Card.Add("D8");
-            Card.Add("D9");
-            Card.Add("D10");
-            Card.Add("DJ");
-            Card.Add("DQ");
-            Card.Add("DK");
-            Card.Add("C2");
-            Card.Add("C3");
-            Card.Add("C4");
-            Card.Add("C5");
-            Card.Add("C6");
-            Card.Add("C7");
-            Card.Add("C8");
-            Card.Add("C9");
-            Card.Add("C10");
-            Card.Add("CJ");
-            Card.Add("CQ");
-            Card.Add("CK");
-            Card.Add("S2");
-            Card.Add("S3");
-            Card.Add("S4");
-            Card.Add("S5");
-            Card.Add("S6");
-            Card.Add("S7");
-            Card.Add("S8");
-            Card.Add("S9");
-            Card.Add("S10");
-            Card.Add("SJ");
-            Card.Add("SQ");
-            Card.Add("SK");
-            Card.Add("HA");
-            Card.Add("DA");
-            Card.Add("CA");
-            Card.Add("SA");
+            Card.Add('\u2660' + "2");
+            Card.Add('\u2660' + "3");
+            Card.Add('\u2660' + "4");
+            Card.Add('\u2660' + "5");
+            Card.Add('\u2660' + "6");
+            Card.Add('\u2660' + "7");
+            Card.Add('\u2660' + "8");
+            Card.Add('\u2660' + "9");
+            Card.Add('\u2660' + "10");
+            Card.Add('\u2660' + "J");
+            Card.Add('\u2660' + "Q");
+            Card.Add('\u2660' + "K");
+
+            Card.Add('\u2665' + "A");//HJärter ess
+            Card.Add('\u2666' + "A");//Ruter ess
+            Card.Add('\u2663' + "A");//KLöver ess
+            Card.Add('\u2660' + "A");//Spader ess
 
         }
 
