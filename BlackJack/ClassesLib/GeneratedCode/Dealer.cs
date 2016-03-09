@@ -11,7 +11,7 @@ using System.Text;
 
 public class Dealer
 {
-	public virtual void RequestAction(object Hand)
+	public void RequestAction(object Hand)
 	{
 		
 	}

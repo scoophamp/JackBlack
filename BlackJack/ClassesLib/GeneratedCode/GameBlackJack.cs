@@ -21,7 +21,7 @@ public class GameBlackJack
     Card card = new Card();
 
 
-	public virtual void StartGame()
+	public void StartGame()
 	{
 		
 	}

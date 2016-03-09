@@ -20,9 +20,9 @@ public class Hand
 		set;
 	}
 
-	public virtual string AddCard()
+	public string AddCard()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 }

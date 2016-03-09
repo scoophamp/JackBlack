@@ -11,7 +11,7 @@ using System.Text;
 
 public class Rules
 {
-	public virtual int draw
+	public int draw
 	{
 		get;
 		set;
@@ -19,7 +19,7 @@ public class Rules
 
 	public List<Hand> CheckValue()
 	{
-		throw new System.NotImplementedException();
+		
 	}
 
 	public int DealerMustDraw()
